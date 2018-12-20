@@ -1,4 +1,4 @@
-package io.github.jiangdequan;
+
 
 import javax.swing.JOptionPane;
 
@@ -7,7 +7,7 @@ public class DescionStructures {
         int number;
         String input;
         input=JOptionPane.showInputDialog("Please enter a number: ");
-        number=Intger.parseInt(input);
+        number=Integer.parseInt(input);
         
         if (number==5){
             JOptionPane.showMessageDialog(null, "the number is exactly 5");     
