@@ -11,7 +11,15 @@ public class ReadingInput{
         secondNumber=kb.nextInt();
         int secondNumber2 = secondNumber;
 		double average = (firstNumber+secondNumber2) /2.0;
-        System.out.println(average);
+        System.out.println("The Average is: "+average);
+        String name;
+        String surname;
+        kb.nextLine();
+        System.out.println("Enter your name: ");
+        name=kb.nextLine();
+        System.out.println("Please enter your surname: ");
+        surname=kb.nextLine();
+        System.out.println(name+" "+surname);
         kb.close();
     } 
 }
