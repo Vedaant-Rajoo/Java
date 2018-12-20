@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Char",
+            "request": "launch",
+            "mainClass": "Char",
+            "projectName": "JavaPractice_9aae4af6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "JavaPractice_9aae4af6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - average",
             "request": "launch",
             "mainClass": "average"
